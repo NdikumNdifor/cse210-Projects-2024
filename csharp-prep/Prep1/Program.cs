@@ -4,10 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        /* 
-          A simple program to demonstrate knowlegde and use of
-          Variable, Input and Output. 
-        */
+         
+        //  A simple program to demonstrate knowlegde and use of
+        //  Variable, Input and Output. 
         Console.Write("What is your first name? ");
         string first_name = Console.ReadLine();
 
