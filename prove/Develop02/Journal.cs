@@ -1,5 +1,6 @@
 using System.IO;
 
+
 public class Journal
 {
     public List<Entry> _entries = new List<Entry>();
@@ -37,6 +38,7 @@ public class Journal
     {
         Console.WriteLine("Please enter your file name without any extension: ");
         string entrerd = Console.ReadLine();
+        
         string extension = ".csv";
         string fileName = string.Concat(entrerd, extension);
         using (StreamWriter outputfile = new StreamWriter(fileName))

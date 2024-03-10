@@ -1,6 +1,5 @@
 class PromtGenerator
 {
-   // List<string> _prompts = new List<string>();
 
    public string[] _prompts = 
 

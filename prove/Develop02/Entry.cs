@@ -1,3 +1,4 @@
+/* Impimenting the Entry class */
 public class Entry
 {
     public string _date;
