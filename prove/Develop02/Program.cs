@@ -55,7 +55,7 @@ class Program
 
             else
             {
-                Console.WriteLine("You are not entering a valad option");
+                Console.WriteLine("You are not entering a valid option");
             }
             
         }
