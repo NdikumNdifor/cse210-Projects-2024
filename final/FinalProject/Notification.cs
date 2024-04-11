@@ -1,13 +1,13 @@
 public class Notification
 {
-    private Status _status;
-    public Notification(Status status)
+    
+    public Notification()
     {
-        _status = status;
+        // _status = status;
     }
 
     public void CreateNotification()
     {
-        
+        Console.WriteLine("You have a notification");
     }
 }

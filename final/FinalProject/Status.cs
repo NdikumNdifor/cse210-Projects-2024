@@ -1,12 +1,12 @@
 public class Status
 {
     private WeeklyAbsence _weeklyAbsence;
-    // private MonthlyAbsence _monthlyAbsence;
+    private MonthlyAbsence _monthlyAbsence;
 
     public Status(WeeklyAbsence weeklyAbsence, MonthlyAbsence monthlyAbsence)
     {
         _weeklyAbsence = weeklyAbsence;
-        // _monthlyAbsence = monthlyAbsence;
+        _monthlyAbsence = monthlyAbsence;
     }
     public void DisplayStatus()
     {
